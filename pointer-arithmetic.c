@@ -21,5 +21,6 @@ int main() {
 	printf("         &ints[0] = %p\n", &ints[0]);
 	printf("         &ints[1] = %p\n", &ints[1]);
 	printf("           ints+1 = %p\n", ints+1);
+	printf("     *int(ints)+1 = %p\n", ((int*)ints)+1);
 	printf("    *void(ints)+1 = %p\n", ((void*)ints)+1);
 }

@@ -10,3 +10,4 @@ stream-buffering-stdin
 tty-echo
 tty-unbuffered-input
 terminal
+pointer-arithmetic
