@@ -3,7 +3,9 @@
 // This demo shows how pointer arithmetic behaves for different pointer types.
 // Note that incrementing an array pointer moves the pointer to the next array
 // element, independent of the size of the array content. Incrementing a void*
-// pointer on the other hand always shifts the pointer by 1 byte.
+// pointer on the other hand is not permitted by the standard. Some compilers,
+// such as GCC, ignore this and perform pointer arithmetics as if void* would
+// have size 1.
 int main() {
 	char chars[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 	printf("     sizeof(char) = %ld\n", sizeof(char));
