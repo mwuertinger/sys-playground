@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+// This program binds a UDP socket and prints all received data to stdout.
 int main(int argc, char **argv) {
 	if (argc != 2) {
 		fprintf(stderr, "Usage: %s <port>\n", argv[0]);
