@@ -12,4 +12,4 @@ tty-unbuffered-input
 terminal
 pointer-arithmetic
 read-dir
-net-udp
+net-udp-server
