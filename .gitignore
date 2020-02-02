@@ -15,5 +15,6 @@ signal-race
 stream-buffering
 stream-buffering-stdin
 terminal
+tmp-file
 tty-echo
 tty-unbuffered-input
